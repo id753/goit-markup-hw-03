@@ -195,8 +195,8 @@ address {
   display: flex;
   gap: 24px;
 }
-.feature-list li {
-   flex-basis: calc((100% - 72px) / 4));
+.feature-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .feature-title-second {
   font-weight: 500;
@@ -205,6 +205,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  /* flex-basis: calc((100% - 72px) / 4)); */
 }
 .feature-text {
   font-size: 16px;
