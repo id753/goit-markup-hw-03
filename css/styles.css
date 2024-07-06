@@ -196,7 +196,7 @@ address {
   gap: 24px;
 }
 .feature-list li {
-  width: calc((100% - 72px) / 4);
+   flex-basis: calc((100% - 72px) / 4));
 }
 .feature-title-second {
   font-weight: 500;
@@ -258,7 +258,7 @@ address {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  /* width: calc((100% - 72px) / 4); */
+ flex-basis: calc((100% - 72px) / 4));
 }
 /*  */
 /* Our Portfolio */
@@ -299,7 +299,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 48px) / 3);
 }
 
 /*  */
