@@ -195,7 +195,7 @@ address {
   display: flex;
   gap: 24px;
 }
-.feature-list-item {
+.feature-list li {
   width: calc((100% - 72px) / 4);
 }
 .feature-title-second {
