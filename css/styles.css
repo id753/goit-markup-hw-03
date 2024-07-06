@@ -195,8 +195,8 @@ address {
   display: flex;
   gap: 24px;
 }
-.feature-item {
-  width: calc((100% - 3 * 24px) / 4);
+.feature-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .feature-title-second {
   font-weight: 500;
@@ -233,6 +233,7 @@ address {
 .team-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .team-sub {
   font-weight: 500;
